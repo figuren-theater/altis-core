@@ -1,14 +1,31 @@
 {
-	"name": "altis/core",
-	"description": "Core module for Altis",
+	"name": "figuren-theater/altis-core",
+	"description": "Core Module for a WordPress multisite plattform like figuren.theater. Forked, learned and made from the great Altis.",
 	"type": "composer-plugin",
-	"license": "GPL-2.0-or-later",
+    "homepage": "https://websites.fuer.figuren.theater",
+    "keywords": ["wordpress", "composer", "theater", "altis"],
+    "license": "GPL-3.0-or-later",
 	"authors": [
 		{
 			"name": "Human Made",
 			"email": "hello@humanmade.com"
-		}
+		},
+        {
+            "name": "figuren.theater",
+            "email": "info@figuren.theater"
+        },
+        {
+            "name": "Carsten Bach",
+            "email": "mail@carsten-bach.de",
+            "homepage": "https://carsten-bach.de",
+            "role": "Developer"
+        }
 	],
+    "support": {
+        "email": "info@figuren.theater",
+        "issues": "https://github.com/figuren-theater/altis-core/issues",
+        "source": "https://github.com/figuren-theater/altis-core"
+    },
 	"require": {
 		"php": ">=7.1",
 		"composer-plugin-api": "^1.1 || ^2.0",
