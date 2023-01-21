@@ -11,18 +11,12 @@
 	],
 	"require": {
 		"php": ">=7.1",
-		"aws/aws-sdk-php": "~3.242.1",
 		"composer-plugin-api": "^1.1 || ^2.0",
-		"composer/installers": "^1.12 || ^2.0",
-		"segmentio/analytics-php": "~2.0.0"
+		"composer/installers": "^1.12 || ^2.0"
 	},
 	"autoload": {
 		"files": [
-			"inc/namespace.php",
-			"inc/about/namespace.php",
-			"inc/global_content/namespace.php",
-			"inc/upgrades/namespace.php",
-			"inc/telemetry/namespace.php"
+			"inc/namespace.php"
 		],
 		"classmap": [
 			"inc/"
